@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#mainBodyContent {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin: 10px;
+}
+.skip{
+    position: absolute;
+    top: -40px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
+.headerContent{
+    background-image: url("https://wallpaperaccess.com/full/4492167.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.naviBar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#headerBackground{
+    --bs-gray-dark: #343a40;
+    opacity: 50%;
+}
+.navLinks{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
